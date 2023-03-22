@@ -1,41 +1,51 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/MontserratRegular.eot');
-  src: url('../fonts/MontserratRegular.woff2') format('woff2'),
-       url('../fonts/MontserratRegular.woff') format('woff');
+  font-display: swap;
   font-weight: 400;
+  font-style: normal;
+  src: local('MontserratRegular'), local('Montserrat-Regular'),
+    url('../fonts/MontserratRegular.woff2') format('woff2'),
+    url('../fonts/MontserratRegular.woff') format('woff');
 }
-
+/* fonts */
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/MontserratMedium.eot');
-  src: url('../fonts/MontserratMedium.woff2') format('woff2'),
-       url('fonts/MontserratMedium.woff') format('woff');
+  font-display: swap;
   font-weight: 500;
+  font-style: normal;
+  src: local('MontserratMedium'), local('Montserrat-Medium'),
+    url('../fonts/MontserratMedium.woff2') format('woff2'),
+    url('fonts/MontserratMedium.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/MontserratSemiBold.eot');
-  src: url('../fonts/MontserratSemiBold.woff2') format('woff2'),
-       url('../fonts/MontserratSemiBold.woff') format('woff');
+  font-display: swap;
   font-weight: 600;
+  font-style: normal;
+  src: local('MontserratSemiBold'), local('Montserrat-SemiBold'),
+    url('../fonts/MontserratSemiBold.woff2') format('woff2'),
+    url('../fonts/MontserratSemiBold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/MontserratBold.eot');
-  src: url('../fonts/MontserratBold.woff2') format('woff2'),
-       url('../fonts/MontserratBold.woff') format('woff');
+  font-display: swap;
   font-weight: 700;
+  font-style: normal;
+  src: local('MontserratBold'), local('Montserrat-Bold'),
+    url('../fonts/MontserratBold.woff2') format('woff2'),
+    url('../fonts/MontserratBold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/MontserratExtraBold.eot');
-  src: url('../fonts/MontserratExtraBold.woff2') format('woff2'),
-       url('../fonts/MontserratExtraBold.woff') format('woff');
+  font-display: swap;
   font-weight: 800;
+  font-style: normal;
+  src: local('MontserratExtraBold'), local('Montserrat-ExtraBold'),
+    url('../fonts/MontserratExtraBold.woff2') format('woff2'),
+    url('../fonts/MontserratExtraBold.woff') format('woff');
 }
 
 :root {
@@ -305,15 +315,11 @@ img {
   max-width: 1920px;
   padding: 0 75px;
   margin: 0 auto;
-  /* min-height: 620px; */
 }
 
 .hero__wrapper {
   position: relative;
   border-radius: 32px;
-  /* background-image: url('../img/hero-slide-1.jpg'); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
   min-height: 620px;
 }
 
@@ -329,21 +335,21 @@ img {
 
 .hero__slide--1 {
   border-radius: 32px;
-  background-image: url('../img/hero__slide1--1920.jpg');
+  background-image: url('../img/hero__slide1--1920.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero__slide--2 {
   border-radius: 32px;
-  background-image: url('../img/hero__slide2--1920.jpg');
+  background-image: url('../img/hero__slide2--1920.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero__slide--3 {
   border-radius: 32px;
-  background-image: url('../img/hero__slide3--1920.jpg');
+  background-image: url('../img/hero__slide3--1920.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -469,7 +475,7 @@ img {
   min-height: 622px;
   margin-right: 32px;
   border-radius: 32px;
-  background-image: url('../img/about__left.jpg');
+  background-image: url('../img/about__left.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -749,19 +755,19 @@ img {
 }
 
 .slider-right__image--1 {
-  background-image: url('../img/how__right-slide1--1920.jpg');
+  background-image: url('../img/how__right-slide1--1920.webp');
 }
 
 .slider-right__image--2 {
-  background-image: url('../img/how__right-slide2--1920.jpg');
+  background-image: url('../img/how__right-slide2--1920.webp');
 }
 
 .slider-right__image--3 {
-  background-image: url('../img/how__right-slide3--1920.jpg');
+  background-image: url('../img/how__right-slide3--1920.webp');
 }
 
 .slider-right__image--4 {
-  background-image: url('../img/how__right-slide4--1920.jpg');
+  background-image: url('../img/how__right-slide4--1920.webp');
 }
 
 

@@ -4,14 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.png" type="image/png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="css/accordion.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/media.css">
   <title>Евклид</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <!-- fonts -->
+  <link rel="preload" href="fonts/MontserratBold.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratExtraBold.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratMedium.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratRegular.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratSemiBold.woff2" as="font">
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <!-- <link rel="stylesheet" href="css/accordion.min.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/media.min.css">
+  <!-- js -->
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- <script defer src="js/accordion.min.js"></script> -->
+  <script defer src="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.js"></script>
+  <script defer src="js/script.js"></script>
 </head>
+
 <body>
   <header class="header">
     <div class="header__container">
@@ -49,12 +64,6 @@
           </li>
         </ul>
       </nav>
-
-      <!-- <button class="header__burger burger btn-reset" aria-label="Бургер меню">
-        <span class="burger__line burger__line--long"></span>
-        <span class="burger__line burger__line--middle"></span>
-        <span class="burger__line burger__line--short"></span>
-      </button> -->
 
       <div class="search">
         <button class="header__search header__search--open search-btn btn-reset" aria-label="Открыть поиск">
@@ -452,9 +461,5 @@
       </div>
     </div>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="js/accordion.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>
